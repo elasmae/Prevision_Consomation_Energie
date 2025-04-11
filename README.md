@@ -1,26 +1,27 @@
 
-#  PRÉDICTION DE LA CONSOMMATION D'ÉNERGIE
+#  Prevision de la consommation d'energie
+
 
 ##  Objectif
 
-Ce projet vise à prédire la consommation d’énergie à partir de données historiques (consommation électrique, météo, calendrier).  
+Ce trqvqil vise à prédire la consommation d’énergie à partir de données historiques (consommation électrique, météo, calendrier).  
 Trois modèles de machine learning sont utilisés pour effectuer des prévisions de consommation sur (30 jours) :
 
 -  Random Forest
 -  XGBoost
 -  LightGBM
 
-##  Structure du projet
+##  Structure 
 
 ```
-PRÉDICTION-CONSOMATION-ENERGIE/
+ Prevision de la consommation d'energie/
 │
 ├── data/
 │   ├── 01_raw/                # Données brutes
 │   ├── 02_processed/          # Données nettoyées
 │   ├── 03_training_data/      # Données prêtes pour l'entraînement
 │   ├── 04_visualisation/      # Résultats graphiques + fichiers CSV
-│   └── 05_models/             # Modèles sauvegardés (.pkl)
+│   └── 05_models/             # Modèles sauvegardés
 │
 ├── notebooks/
 │   ├── AED.ipynb              # Analyse exploratoire des données
